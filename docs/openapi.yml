@@ -1,8 +1,8 @@
 openapi: 3.0.3
 info:
-  title: Notifi-K API
+  title: Notifi-k API
   version: 1.0.0
-  description: API base de Notifi-K. Actualmente sin endpoints definidos.
+  description: API base de Notifi-k. Actualmente sin endpoints definidos.
 
 servers:
   - url: http://localhost:8988
