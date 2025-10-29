@@ -11,7 +11,7 @@ services:
     ports:
       - "3700:3306"
     volumes:
-      - db_data:/var/lib/mysql
+      - notifi_k_db_data:/var/lib/mysql
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s
@@ -83,4 +83,4 @@ services:
     command: sh -lc "npm install && npm run dev -- --host"
 
 volumes:
-  db_data:
+  notifi_k_db_data:
